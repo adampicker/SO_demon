@@ -1,0 +1,143 @@
+# depslib dependency file v1.0
+1523568107 source:/home/ab/Documents/demonexperiment/configuration.c
+	"configuration.h"
+
+1524418854 /home/ab/Documents/demonexperiment/configuration.h
+	"files.h"
+
+1524033210 /home/ab/Documents/demonexperiment/files.h
+	<stdbool.h>
+	<stdlib.h>
+	"file.h"
+
+1523993058 /home/ab/Documents/demonexperiment/file.h
+	<stdbool.h>
+	<sys/stat.h>
+
+1524646776 source:/home/ab/Documents/demonexperiment/copyfile.c
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<signal.h>
+	<limits.h>
+	<time.h>
+	<errno.h>
+	<sys/mman.h>
+	<string.h>
+	<assert.h>
+	<dirent.h>
+
+1524300160 /home/ab/Documents/demonexperiment/copyfile.h
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<signal.h>
+	<limits.h>
+	<time.h>
+	<errno.h>
+	<sys/mman.h>
+	<string.h>
+	<dirent.h>
+
+1523993106 source:/home/ab/Documents/demonexperiment/file.c
+	<dirent.h>
+	<stdio.h>
+	<string.h>
+	<sys/stat.h>
+	<assert.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<syslog.h>
+	"file.h"
+
+1524645194 source:/home/ab/Documents/demonexperiment/files.c
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<linux/fs.h>
+	<string.h>
+	<dirent.h>
+	<fcntl.h>
+	<syslog.h>
+	"files.h"
+	<stdbool.h>
+	"file.h"
+
+1524644957 source:/home/ab/Documents/demonexperiment/main.c
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<linux/fs.h>
+	<string.h>
+	<dirent.h>
+	<fcntl.h>
+	<syslog.h>
+	"file.h"
+	"files.h"
+	"synchro.h"
+	"configuration.h"
+
+1524419901 /home/ab/Documents/demonexperiment/synchro.h
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<linux/fs.h>
+	<string.h>
+	<dirent.h>
+	<fcntl.h>
+	<syslog.h>
+	"files.h"
+	"configuration.h"
+	"file.h"
+	"modificationdate.h"
+	"copyfile.h"
+
+1523698588 /home/ab/Documents/demonexperiment/modificationdate.h
+	<stdbool.h>
+	<sys/stat.h>
+	<utime.h>
+
+1523992481 source:/home/ab/Documents/demonexperiment/modificationdate.c
+	"modificationdate.h"
+
+1524644575 source:/home/ab/Documents/demonexperiment/synchro.c
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<linux/fs.h>
+	<string.h>
+	<dirent.h>
+	<fcntl.h>
+	<syslog.h>
+	"synchro.h"
+
